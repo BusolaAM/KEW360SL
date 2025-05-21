@@ -27,10 +27,10 @@ const Footer = () => {
         <div >
           <h4 className="text-lg font-semibold mb-4">LegalFlow</h4>
           <ul className="space-y-2 text-gray-300">
-            <li><Link to="#">Home</Link></li>
-            <li><Link to="#">Pricing</Link></li>
-            <li><Link to="#">Features</Link></li>
-            <li><Link to="#">Case Studies</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Home</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Pricing</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Features</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Case Studies</Link></li>
           </ul>
         </div>
 
@@ -38,10 +38,10 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold mb-4">Solutions</h4>
           <ul className="space-y-2 text-gray-300">
-            <li><Link to="#">Client Portal</Link></li>
-            <li><Link to="#">Document Automation</Link></li>
-            <li><Link to="#">Legal Research</Link></li>
-            <li><Link to="#">Compliance Tools</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Client Portal</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Document Automation</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Legal Research</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Compliance Tools</Link></li>
           </ul>
         </div>
 
@@ -49,22 +49,22 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold mb-4">Company</h4>
           <ul className="space-y-2 text-gray-300">
-            <li><Link to="#">About Us</Link></li>
-            <li><Link to="#">Careers</Link></li>
-            <li><Link to="#">Contact</Link></li>
-            <li><Link to="#">Blog</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">About Us</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Careers</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Contact</Link></li>
+            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Blog</Link></li>
           </ul>
         </div>
 
         {/* Connect (Social Media Icons) */}
         <div >
           <h4 className="text-lg font-semibold mb-4">Connect</h4>
-          <div className="flex space-x-4 sm:justify-center md:justify-end">
+          <div className="flex space-x-4 justify-center md:justify-start">
             <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white text-xl"
+              className="text-gray-300  text-xl hover:text-sky-400"
             >
               <FaFacebookF />
             </a>
@@ -72,7 +72,7 @@ const Footer = () => {
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white text-xl"
+              className="text-gray-300  text-xl hover:text-sky-400"
             >
               <FaTwitter />
             </a>
@@ -80,7 +80,7 @@ const Footer = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white text-xl"
+              className="text-gray-300  text-xl hover:text-sky-400"
             >
               <FaLinkedinIn />
             </a>
@@ -88,7 +88,7 @@ const Footer = () => {
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white text-xl"
+              className="text-gray-300  text-xl hover:text-sky-400"
             >
               <FaInstagram />
             </a>
