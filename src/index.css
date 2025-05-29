@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
-@base {
+/* * {
   padding:0;
   margin:0;
   box-sizing:border-box;
-}
+} */
 
 @theme {
   --font-inter: 'Inter', 'sans-serif';
   --font-poppins: 'Poppins', 'sans-serif';
   --logo:70px;
+  --silver: hsla(0, 0%, 75%,0.3);
+  --plumb-purple: hsl(282, 44%, 47%);
 }
 
 .font-inter{
@@ -17,6 +19,18 @@
 }
 .font-poppins{
   font-family: var(--font-poppins);
+}
+.bg-silver{
+  background-color: var(--silver);
+}
+.bg-plumb-purple{
+  background-color: var(--plumb-purple);
+}
+.silver-color{
+  color: var(--silver);
+}
+.plumb-purple-color{
+  color: var(--plumb-purple);
 }
 
 @layer base{

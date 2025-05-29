@@ -1,28 +1,28 @@
-import Header from './components/header/header.component';
+import Header from "./components/header/header.component";
+import HomePage from "./pages/home";
+import Footer from './components/footer/footer.componet';
+import ServicesPage from "./pages/Services";
+import AboutUsPage from "./pages/AboutUs";
+import ResourcesPage from "./pages/Resources";
+import ContactUsPage from "./pages/Contact";
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
-import HomePage from './pages/home';
-import Footer from './components/footer/footer.componet';
-import EnforcementPage from './pages/enforcementPage';
-import LegalPage from './pages/legalPage';
-import SMEPage from './pages/SMEPage';
-import ScrollToHash from './components/scroll/scrollToHash.component';
-import AppointmentScheduler from './pages/appointmentSechedulePage';
+
 
 function App() {
 
   return (
     <>
-        <div className="min-h-screen flex flex-col">
-          <ScrollToHash />
-          <Header />
-          <main className="flex-grow">
+        <div className="min-h-screen flex flex-col font-inter">
+          {/* <ScrollToHash /> */}
+          <Header /> 
+          <main className="flex-grow pt-0 md:pt-[7rem]">
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path='/services/enforcement' element={<EnforcementPage />} />
-              <Route path='/services/legal' element={<LegalPage />} />
-              <Route path='/services/SME' element={<SMEPage />} />
-              <Route path='/schedule-appointment' element={<AppointmentScheduler />} />
+              <Route path="/services" element={<ServicesPage />} />
+              <Route path="/about" element={<AboutUsPage />} />
+              <Route path="/resources" element={<ResourcesPage />} />
+              <Route path="/contact" element={<ContactUsPage />} />
             </Routes>
           </main>
           <Footer />

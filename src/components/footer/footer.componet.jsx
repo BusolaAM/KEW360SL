@@ -10,14 +10,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-blue-950 text-white py-12 px-12 mt-auto">
+    <footer className="bg-plumb-purple text-white py-12 px-12 mt-auto">
       {/* Centered Heading Section */}
       <div className="text-center mb-12 max-w-2xl mx-auto px-4">
         <h2 className="text-xl sm:text-2xl font-bold mb-4">Stay Informed with LegalFlow</h2>
         <p className="text-gray-300 mb-6 text-sm sm:text-base">
           Subscribe to our newsletter to get the latest updates on our solutions, legal news, and company events.
         </p>
-        <button className="bg-sky-500 hover:bg-sky-600 px-6 py-2 rounded-md font-medium transition-all">
+        <button className="bg-gray-300 text-black hover:bg-purple-500 px-6 py-2 rounded-md font-medium transition-all">
           Subscribe
         </button>
       </div>
@@ -26,33 +26,33 @@ const Footer = () => {
         {/* LegalFlow Links */} 
         <div >
           <h4 className="text-lg font-semibold mb-4">LegalFlow</h4>
-          <ul className="space-y-2 text-gray-300">
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Home</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Pricing</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Features</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Case Studies</Link></li>
+          <ul className="space-y-2 text-white">
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Home</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Pricing</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Features</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Case Studies</Link></li>
           </ul>
         </div>
 
         {/* Solutions Links */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Solutions</h4>
-          <ul className="space-y-2 text-gray-300">
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Client Portal</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Document Automation</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Legal Research</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Compliance Tools</Link></li>
+          <ul className="space-y-2 text-white">
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Client Portal</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Document Automation</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Legal Research</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Compliance Tools</Link></li>
           </ul>
         </div>
 
         {/* Company Links */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Company</h4>
-          <ul className="space-y-2 text-gray-300">
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">About Us</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Careers</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Contact</Link></li>
-            <li className="hover:text-sky-400 transform hover:scale-105 transition duration-300"><Link to="#">Blog</Link></li>
+          <ul className="space-y-2 text-white">
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">About Us</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Careers</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Contact</Link></li>
+            <li className="hover:text-gray-300 transform hover:scale-105 transition duration-300"><Link to="#">Blog</Link></li>
           </ul>
         </div>
 
@@ -64,7 +64,7 @@ const Footer = () => {
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300  text-xl hover:text-sky-400"
+              className="text-white  text-xl hover:text-gray-300"
             >
               <FaFacebookF />
             </a>
@@ -72,7 +72,7 @@ const Footer = () => {
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300  text-xl hover:text-sky-400"
+              className="text-white  text-xl hover:text-gray-300"
             >
               <FaTwitter />
             </a>
@@ -80,7 +80,7 @@ const Footer = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300  text-xl hover:text-sky-400"
+              className="text-white  text-xl hover:text-gray-300"
             >
               <FaLinkedinIn />
             </a>
@@ -88,7 +88,7 @@ const Footer = () => {
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300  text-xl hover:text-sky-400"
+              className="text-white  text-xl hover:text-gray-300"
             >
               <FaInstagram />
             </a>
@@ -105,7 +105,7 @@ const Footer = () => {
       <div className="flex justify-center mt-8">
         <button
           onClick={scrollToTop}
-          className="text-white bg-sky-600 hover:bg-sky-700 p-3 rounded-full shadow-lg transition duration-300"
+          className="text-white bg-silver hover:bg-purple-700 p-3 rounded-full shadow-lg transition duration-300"
           aria-label="Back to top"
         >
           <FaArrowUp />
