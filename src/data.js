@@ -16,6 +16,20 @@ import reportImg from './assets/images/reportSystem.PNG';
 import cloudImg from './assets/images/cloud.PNG';
 import cyberImg from './assets/images/cyber.PNG';
 import conslutImg from './assets/images/consulting.PNG';
+import advicerImg from './assets/images/advicer.PNG';
+import agencyImg from './assets/images/agency.PNG';
+import clientImg from './assets/images/client.PNG';
+import excellenceImg from './assets/images/excellenceImg.PNG';
+import firmImg from './assets/images/firm.PNG';
+import foundingImg from './assets/images/founding.PNG';
+import innovationImg from './assets/images/innovationImg.PNG';
+import innovatorImg from './assets/images/innovator.PNG';
+import instituteImg from './assets/images/institute.PNG';
+import journeyImg from './assets/images/journey.PNG';
+import milestoneImg from './assets/images/milestone.PNG';
+import specialistImg from './assets/images/specialist.PNG';
+
+const currentDate = new Date().toLocaleDateString(); 
 
 //FOR HOME PAGE
 export const Services = [
@@ -56,9 +70,6 @@ export const Testimony = [
     showButton: true
   }
 ];
-
-
-const currentDate = new Date().toLocaleDateString(); 
 
 export const Updates = [
   {
@@ -135,3 +146,82 @@ export const SMESolution = [
   }
 ];
 
+// FOR ABOUT PAGE
+
+export const AboutInnovation = [
+  {
+    image: innovationImg,
+    title: "Innovative Solutions",
+    content: "We leverage advanced technology to deliver innovative solutions that streamline legal processes, enhance law enforcement capabilities, and empower small and medium enterprises.",
+  },
+  {
+    image: excellenceImg,
+    title: "Commitment to Excellence",
+    content: "Our unwavering commitment to excellence drives us to constantly improve our offerings, ensuring that we meet the evolving needs of our clients in legal and enforcement sectors.",
+  },
+  {
+    image: clientImg,
+    title: "Client-Centric Approach",
+    content: "We prioritize our clients' needs, working closely with them to tailor our solutions for maximum impact and efficiency, reinforcing our position as trusted partners in their success.",
+  }
+];
+
+export const OurExpert = [
+  {
+    image: specialistImg,
+    title: "Legal Technology Specialists",
+    content: "Our legal technology specialists bring a wealth of experience in developing solutions that optimize legal operations and enhance compliance measures.",
+  },
+  {
+    image: innovatorImg,
+    title: "Tech Innovators",
+    content: "Our tech innovators are at the forefront of creating cutting-edge applications that revolutionize law enforcement processes, ensuring safer communities.",
+  },
+  {
+    image: advicerImg,
+    title: "SME Advisors",
+    content: "Our SME advisors work closely with small and medium enterprises to provide tailored tech solutions that drive growth and operational efficiency.",
+  }
+];
+
+export const History = [
+  {
+    image: journeyImg,
+    title: 'Recent Achievement: International Expansion',
+    content: 'By 2023, Kew360 Services Limited expanded its reach internationally, formin strategic...',
+    date: currentDate,
+    link: ''
+  },
+  {
+    image: milestoneImg,
+    title: 'Milestone: First Major Product Launch',
+    content: 'In 2015, we launched our flagship product that transformed the way law enforcement agencies...',
+    date: currentDate,
+    link: ''
+  },
+  {
+    image: foundingImg,
+    title: 'Founding Year: 2010',
+    content: 'Kew360 Services Limited was founded in 2010 with a vision to harness technology to improve the...',
+    date: currentDate,
+    link: ''
+  }
+];
+
+export const Collaboration = [
+  {
+    image: instituteImg,
+    title: "Legal Institutions",
+    content: "We have partnered with leading legal institutions to develop training programs and resources that empower legal professionals with the latest technological advancements, fostering a culture of innovation within the sector.",
+  },
+  {
+    image: agencyImg,
+    title: "Enforcement Agencies",
+    content: "Our collaborations with enforcement agencies have resulted in the development of specialized tools that improve operational efficiency and enhance public safety, highlighting the importance of technology in modern law enforcement.",
+  },
+  {
+    image: firmImg,
+    title: "Technology Firms",
+    content: "We work alongside top technology firms to integrate advanced features into our products, ensuring that our clients benefit from the latest innovations and remain competitive in a rapidly evolving landscape.",
+  }
+];
