@@ -61,7 +61,7 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-4">Connect</h4>
           <div className="flex space-x-4 justify-center md:justify-start">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61575708608087"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white  text-xl hover:text-gray-300"
@@ -69,7 +69,7 @@ const Footer = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/kew360"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white  text-xl hover:text-gray-300"
@@ -77,7 +77,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/kew360sl"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white  text-xl hover:text-gray-300"
@@ -85,7 +85,7 @@ const Footer = () => {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/kew360sl/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white  text-xl hover:text-gray-300"
@@ -98,7 +98,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-gray-400 text-sm mt-12 px-4">
-        © {new Date().getFullYear()} LegalFlow. All rights reserved.
+        © {new Date().getFullYear()} Kew360 Services Limited. All rights reserved.
       </div>
 
       {/* Back to Top Button */}
