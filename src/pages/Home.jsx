@@ -1,12 +1,6 @@
 import { Link } from 'react-router-dom'
 import BG1 from '../assets/images/bg1.jpg'
 import CustomBtn from '../components/custom-button/custom-button.component'
-import BG2 from '../assets/images/bg2.jpg'
-import BG3 from '../assets/images/bg3.jpg'
-import BG4 from '../assets/images/bg4.jpg'
-import BG5 from '../assets/images/bg5.jpg'
-import BG6 from '../assets/images/bg6.jpg'
-import BG7 from '../assets/images/bg7.jpg'
 import ServicesCard from '../components/servicesCard/servicesCardPreview.component'
 import TestimonyCard from '../components/testimonialCard/testimonyCardPreview.component';
 import UpdatesCard from '../components/updateCard/updateCardPreview.component'
@@ -29,26 +23,28 @@ const HomePage = () => {
             </article>
             <section className='p-4'>
                 <article className='mt-8'>
-                <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight'>Our Areas of Expertise</h1>
-                    <p className='text-base xl:lg'>Specializing in technology solutions that cater to the needs of legal, law enforcement, and small to medium enterprises.</p>
-                </div>
-                <div>
-                    <ServicesCard />
-                </div>
+                    <div className='text-center flex flex-col gap-4'>
+                        <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>Our Areas of Expertise</h1>
+                        <p className='text-base xl:lg'>Specializing in technology solutions that cater to the needs of legal, law enforcement, and small to medium enterprises.</p>
+                    </div>
+                    <div>
+                        <ServicesCard />
+                    </div>
                 </article>
+
                 <article className='mt-8'>
                     <div className='text-center flex flex-col gap-4'>
-                        <h1 className='text-2xl md:text-2xl font-poppins font-extralight'>What Our Clients Say</h1>
+                        <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>What Our Clients Say</h1>
                         <p className='text-base xl:lg'>Discover how we have made an impact through the words of our valued clients.</p>
                     </div>
                     <div>
                         <TestimonyCard />
                     </div>
                 </article>
+
                 <article className='mt-14'>
                     <div className='text-center flex flex-col gap-2'>
-                        <h1 className='text-2xl md:text-2xl font-poppins font-extralight'>Latest Insights and Updates</h1>
+                        <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>Latest Insights and Updates</h1>
                         <p className='text-base xl:lg'>Stay informed with the latest news and developments from Kew360 Services and the broader industry.</p>
                     </div>
                     <div>
