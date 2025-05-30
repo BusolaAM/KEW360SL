@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LegalSolutionCard from "../components/legalCard/legalPreview.component";
+import LegalSolutionCard from "../components/legalCard/legalCardPreview.component";
 import SMESolutionCard from "../components/SMECard/SMECardPreview.component";
 import EnforcementSolutionCard from "../components/enforcementCard/enforcementCardPreview.component";
 import CustomBtn from "../components/custom-button/custom-button.component";
