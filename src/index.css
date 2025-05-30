@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-/* * {
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
-} */
-
 @theme {
   --font-inter: 'Inter', 'sans-serif';
   --font-poppins: 'Poppins', 'sans-serif';
@@ -43,23 +37,3 @@ img{
   max-width: 100%;
 }
 }
-
-/* Optional animation utility (uncomment to use) */
-/*
-@layer utilities {
-  .animate-fade-in {
-    animation: fadeIn 0.3s ease-in-out forwards;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-}
-*/
