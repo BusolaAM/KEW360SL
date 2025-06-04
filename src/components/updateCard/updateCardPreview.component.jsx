@@ -1,4 +1,4 @@
-import CardItem from "./card.component";
+import CardItem from "../clickableCard/clickableCard.component";
 import { Updates } from "../../data";
 
 const UpdatesCard = () => {

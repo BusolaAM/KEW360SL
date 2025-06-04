@@ -13,7 +13,9 @@ const AboutUsPage = () => {
 
             <article className="mt-12">
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>Meet Our Experts</h1>
+                    <h2 className="text-3xl font-semibold text-gray-900 mb-4 text-shadow-[2px_2px_4px_hsl(282,44%,47%)]">
+                        Meet Our Experts
+                    </h2>
                     <p className='text-base xl:lg'>A team of dedicated professionals with diverse backgrounds and expertise.</p>
                 </div>
                 <div>
@@ -23,7 +25,9 @@ const AboutUsPage = () => {
 
             <article className="mt-12">
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>Our Journey</h1>
+                    <h2 className="text-3xl font-semibold text-gray-900 mb-4 text-shadow-[2px_2px_4px_hsl(282,44%,47%)]">
+                        Our Journey
+                    </h2>
                     <p className='text-base xl:lg'>A glimpse into our milestones and achievements over the years.</p>
                 </div>
                 <div>
@@ -33,7 +37,9 @@ const AboutUsPage = () => {
 
             <article className="mt-12">
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>Collaborative Strength</h1>
+                    <h2 className="text-3xl font-semibold text-gray-900 mb-4 text-shadow-[2px_2px_4px_hsl(282,44%,47%)]">
+                        Collaborative Strength
+                    </h2>
                     <p className='text-base xl:lg'>Building partnerships to enhance our offerings and reach.</p>
                 </div>
                 <div>

@@ -35,7 +35,9 @@ const ServicesPage = () => {
         <section className='bg-silver p-4'>
             <article className='mt-8'>
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>KewCase Solution</h1>
+                    <h2 className="text-3xl font-semibold text-gray-900 mb-4 text-shadow-[2px_2px_4px_hsl(282,44%,47%)]">
+                        KewCase Solution
+                    </h2>
                     <p className='text-base xl:lg'>Trusted by legal professionals to modernize operations.</p>
                 </div>
                 <div>
@@ -45,7 +47,9 @@ const ServicesPage = () => {
             
             <article className='mt-8'>
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>KewForce Solution</h1>
+                    <h2 className="text-3xl font-semibold text-gray-900 mb-4 text-shadow-[2px_2px_4px_hsl(282,44%,47%)]">
+                        KewForce Solution
+                    </h2>
                     <p className='text-base xl:lg'>We built and designed with enforcement officers in mind to messaging</p>
                 </div>
                 <div>
@@ -55,7 +59,9 @@ const ServicesPage = () => {
 
             <article className='mt-8'>
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>KewSuite Solution</h1>
+                    <h2 className="text-3xl font-semibold text-gray-900 mb-4 text-shadow-[2px_2px_4px_hsl(282,44%,47%)]">
+                        KewSuite Solution
+                    </h2>
                     <p className='text-base xl:lg'>Empowering African businesses with enterprise-grade tools at SME prices.</p>
                 </div>
                 <div>
@@ -65,7 +71,9 @@ const ServicesPage = () => {
 
             <article className='mt-8'>
                 <div className='text-center flex flex-col gap-4'>
-                    <h1 className='text-2xl md:text-2xl font-poppins font-extralight text-shadow-[2px_2px_4px_hsl(282,44%,47%)]'>Request a Quote</h1>
+                    <h2 className="text-3xl font-semibold text-gray-900 mb-4 text-shadow-[2px_2px_4px_hsl(282,44%,47%)]">
+                        Request a Quote
+                    </h2>
                     <p className='text-base xl:lg'>Get in Touch with Us.</p>
                 </div>
                 <form onSubmit={handleSubmit} className="shadow-md rounded p-4 sm:p-6 space-y-4 flex-1 w-full md:max-w-xl md:mx-auto">

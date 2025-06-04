@@ -28,6 +28,13 @@ import instituteImg from './assets/images/institute.PNG';
 import journeyImg from './assets/images/journey.PNG';
 import milestoneImg from './assets/images/milestone.PNG';
 import specialistImg from './assets/images/specialist.PNG';
+import legalFutureImg from './assets/images/legalFuture.png';
+import legalFlowImg from './assets/images/legalFlow.PNG';
+import CommuneSafeImg from './assets/images/communeSafety.PNG';
+import empowerSMEImg from './assets/images/empowerSME.PNG';
+import enforceFutureImg from './assets/images/enforceFuture.PNG';
+import SMEfutureImg from './assets/images/smefuture.PNG';
+
 
 const currentDate = new Date().toLocaleDateString(); 
 
@@ -37,16 +44,19 @@ export const Services = [
     image: enforceTechImage,
     title: "Law Enforcement Technology",
     content: "We designed and built with enforcement officers in mind to messaging. We specialize in developing innovative software solutions for the legal industry, aimed at improving the efficiency of legal practitioners. Our products include case management systems, document automation tools, and predictive analytics that help lawyers make informed decisions.",
+    centerAlignment: true
   },
   {
     image: legalTechImage,
     title: "Legal Technology Innovations",
     content: "Our expertise in law enforcement technology includes the development of tools that aid in investigation, crime analysis, and data management. We collaborate closely with law enforcement agencies to tailor solutions that meet the unique challenges they face in today’s environment.",
+    centerAlignment: true
   },
   {
     image: SMETechImage,
     title: "SME Technology Solutions",
     content: "We provide a range of technology solutions specifically designed for SMEs. Our services include cloud computing, digital marketing tools, and customer relationship management systems that help small businesses thrive and adapt in a fast-paced digital landscape.",
+    centerAlignment: true
   }
 ];
 
@@ -74,17 +84,20 @@ export const Testimony = [
 export const Updates = [
   {
     image: digitalImage,
-    content: `SMEs and the Digital Transformation Journey - ${currentDate}`,
+    content: 'SMEs and the Digital Transformation Journey',
+    date: currentDate,
     link: ''
   },
   {
     image: lawImage,
-    content: `Enhancing Law Enforcement with Technology - ${currentDate}`,
+    content: 'Enhancing Law Enforcement with Technology',
+    date: currentDate,
     link: ''
   },
   {
     image: legalImage,
-    content: `The Future of Legal Tech: Trends to Watch - ${currentDate}`,
+    content: 'The Future of Legal Tech: Trends to Watch',
+    date: currentDate,
     link: ''
   }
 ];
@@ -97,16 +110,19 @@ export const LegalSolution = [
     image: caseImg,
     title: "Case Management Systems",
     content: "Our advanced case management systems allow law firms to efficiently organize and track cases from inception to resolution. With features like document automation, real-time collaboration, and comprehensive reporting, these tools help legal professionals save time and reduce errors. By streamlining workflows, we empower your team to focus on delivering exceptional legal services.",
+    centerAlignment: true
   },
   {
     image: automationImg,
     title: "Legal Research Automation",
     content: "Leverage cutting-edge AI technology to enhance your legal research capabilities. Our solutions provide instant access to vast legal databases, enabling attorneys to find relevant case law and statutes quickly. This not only speeds up the research process but also ensures that you have the most up-to-date information at your fingertips, improving the quality of your legal arguments.",
+    centerAlignment: true
   },
   {
     image: communeImg,
     title: "Client Communication Tools",
     content: "Enhance your client interactions with our robust communication tools designed for the legal industry. These platforms facilitate secure messaging, appointment scheduling, and document sharing, ensuring that clients remain informed and engaged throughout the legal process. By improving communication, you foster stronger relationships and enhance client satisfaction.",
+    centerAlignment: true
   }
 ];
 
@@ -115,16 +131,19 @@ export const EnforcementSolution = [
     image: analyticImg,
     title: "Real-Time Data Analytics",
     content: "Our real-time data analytics tools provide law enforcement agencies with actionable insights to enhance decision-making and operational efficiency. By analyzing crime patterns and trends, officers can proactively allocate resources and respond to incidents more effectively. Our solutions integrate seamlessly with existing systems, ensuring a smooth transition and immediate impact.",
+    centerAlignment: true
   },
   {
     image: cameraImg,
     title: "Body-Worn Camera Technology",
     content: "We offer state-of-the-art body-worn cameras that enhance transparency and accountability in law enforcement operations. These devices capture high-quality video and audio evidence, providing crucial documentation for incidents. With secure data storage and easy retrieval, our technology ensures that officers can focus on their duties while maintaining public trust.",
+    centerAlignment: true
   },
   {
     image: reportImg,
     title: "Incident Reporting Systems",
     content: "Streamline your incident reporting processes with our user-friendly systems designed specifically for law enforcement agencies. These systems allow officers to create, manage, and analyze reports efficiently, reducing paperwork and administrative burdens. The result is faster response times and more accurate records, ultimately leading to improved community safety.",
+    centerAlignment: true
   }
 ];
 
@@ -133,18 +152,22 @@ export const SMESolution = [
     image: cloudImg,
     title: "Cloud Solutions",
     content: "Our cloud solutions provide small and medium enterprises with scalable resources to enhance business operations. With secure data storage and easy access from anywhere, businesses can improve collaboration and productivity. Our experts will guide you through the transition to the cloud, ensuring minimal disruption and maximum benefit.",
+    centerAlignment: true
   },
   {
     image: cyberImg,
     title: "Cybersecurity Services",
     content: "Protect your business from cyber threats with our comprehensive cybersecurity services. We offer risk assessments, ongoing monitoring, and incident response strategies tailored for SMEs. By implementing robust security measures, we help you safeguard sensitive information and build customer trust, allowing your business to thrive in a digital landscape.",
+    centerAlignment: true
   },
   {
     image: conslutImg,
     title: "IT Support and Consulting",
     content: "Our IT support and consulting services are designed to help SMEs navigate the complexities of technology. From troubleshooting to strategic planning, our team of experts is here to provide the assistance you need. We work closely with your organization to develop solutions that align with your unique business goals, ensuring sustainable growth and success.",
+    centerAlignment: true
   }
 ];
+
 
 // FOR ABOUT PAGE
 
@@ -213,15 +236,76 @@ export const Collaboration = [
     image: instituteImg,
     title: "Legal Institutions",
     content: "We have partnered with leading legal institutions to develop training programs and resources that empower legal professionals with the latest technological advancements, fostering a culture of innovation within the sector.",
+    centerAlignment: true
   },
   {
     image: agencyImg,
     title: "Enforcement Agencies",
     content: "Our collaborations with enforcement agencies have resulted in the development of specialized tools that improve operational efficiency and enhance public safety, highlighting the importance of technology in modern law enforcement.",
+    centerAlignment: true
   },
   {
     image: firmImg,
     title: "Technology Firms",
     content: "We work alongside top technology firms to integrate advanced features into our products, ensuring that our clients benefit from the latest innovations and remain competitive in a rapidly evolving landscape.",
+    centerAlignment: true
+  }
+];
+
+
+// FOR Resources Page
+
+export const ExploreLegal = [
+  {
+    image: legalFutureImg,
+    content: 'The Future of Legal Tech: Trends to Watch',
+    date: currentDate,
+    link: ''
+  },
+  {
+    image: SMEfutureImg,
+    content: 'SME Tech: Empowering Small and Medium Enterprises',
+    date: currentDate,
+    link: ''
+  },
+  {
+    image: enforceFutureImg,
+    content: 'Understanding Enforcement Technology: A Comprehensive Guide',
+    date: currentDate,
+    link: ''
+  }
+];
+
+// accordion
+export const AccordionItems = [
+    {
+      title: "What types of technology do you offer?",
+      content: "We provide a variety of technology solutions focusing on legal tech, law enforcement tech, enforcement tech, and SME tech. Our offerings include software for case management, data analysis tools for law enforcement, and specialized applications designed to support the unique needs of small and medium enterprises."
+    },
+    {
+      title: "How can your solutions benefit my organization?",
+      content: "Our solutions are designed to enhance efficiency, improve decision-making, and streamline operations. By leveraging our technology, organizations can reduce manual processes, gain insights through data analytics, and ultimately achieve better outcomes in their respective fields.`"
+    },
+    {
+      title: "Do you provide training for your technology?",
+      content: "Yes, we offer comprehensive training programs for all our technology solutions. These training sessions ensure that your team fully understands the functionality of our systems and can utilize them effectively to maximize productivity and performance."
+    }
+  ];
+
+export const Success = [
+  {
+    image: legalFlowImg,
+    title: "Transforming Legal Workflow at US Firm",
+    content: "In this case study, we showcase how XYZ Firm implemented our legal tech solution to streamline their workflow. The firm reported a 30% increase in efficiency, allowing attorneys to focus more on client relationships rather than administrative tasks.",
+  },
+  {
+    image: CommuneSafeImg,
+    title: "Enhancing Community Safety with Enforcement Tech",
+    content: "This case study highlights the collaboration between our team and a local law enforcement agency. By integrating our enforcement technology, the agency improved their response times by 40% and significantly reduced crime rates within the community.",
+  },
+  {
+    image: empowerSMEImg,
+    title: "Empowering SMEs: A Case with ABC Enterprises",
+    content: "ABC Enterprises turned to us to implement SME tech solutions that would help them scale operations. This case study discusses how our tailored solutions led to a 50% increase in productivity and a notable improvement in customer satisfaction.",
   }
 ];

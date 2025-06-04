@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @theme {
   --font-inter: 'Inter', 'sans-serif';
   --font-poppins: 'Poppins', 'sans-serif';
@@ -28,6 +29,17 @@
 .plumb-purple-color{
   color: var(--plumb-purple);
 }
+.swiper-button-next,
+.swiper-button-prev {
+  color:var(--plumb-purple) !important;
+}
+
+@media screen and (max-width:768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    @apply hidden;
+  }
+}
 
 @layer base{
   body{
@@ -37,3 +49,4 @@ img{
   max-width: 100%;
 }
 }
+

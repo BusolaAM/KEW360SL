@@ -1,6 +1,6 @@
 
 const CardItem = ({ image, title, content}) => (
-  <div className="flex flex-col gap-0 p-2 bg-white">
+  <div className="flex flex-col gap-0 p-4 bg-silver">
     <figure className="w-full h-full rounded-sm mb-4 flex items-center justify-center">
       <img src={image} alt={`${title} image`} className="w-full h-full object-cover" />
     </figure>
