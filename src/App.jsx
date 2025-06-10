@@ -1,5 +1,5 @@
 import Header from './components/header/header.component';
-import HomePage from "./pages/Home.jsx";
+import HomePage from './pages/Home';
 import Footer from './components/footer/footer.component';
 import ServicesPage from "./pages/Services";
 import AboutUsPage from "./pages/AboutUs";
